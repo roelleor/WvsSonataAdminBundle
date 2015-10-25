@@ -19,6 +19,6 @@
     "autoload": {
         "psr-4": { "Wvs\\SonataAdminBundle\\": "" }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
