@@ -1,0 +1,24 @@
+{
+    "name": "wvs/sonata-admin-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony WvsSonataAdminBundle",
+    "keywords": ["SonataAdmin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roel Bousardt",
+            "email": "roel@webvertisingstudios.com",
+            "homepage": "http://www.webvertisingstudios.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/symfony": "2.*",
+        "sonata-project/admin-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-4": { "Wvs\\SonataAdminBundle\\": "" }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
